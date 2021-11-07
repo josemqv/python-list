@@ -1,4 +1,5 @@
 # Extract the created_at column from df: tweet_time
+import pandas as pd
 tweet_time = df["created_at"]
 
 # Extract the clock time: tweet_clock_time
