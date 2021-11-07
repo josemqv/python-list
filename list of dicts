@@ -1,4 +1,16 @@
 # Print the first two lists in row_lists
+def lists2dict(list1, list2):
+    """Return a dictionary where list1 provides
+    the keys and list2 provides the values."""
+
+    # Zip lists: zipped_lists
+    zipped_lists = zip(list1, list2)
+
+    # Create a dictionary: rs_dict
+    rs_dict = dict(zipped_lists)
+
+    # Return the dictionary
+    return rs_dict
 print(row_lists[0])
 print(row_lists[1])
 
